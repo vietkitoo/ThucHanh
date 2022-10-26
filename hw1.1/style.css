@@ -1,0 +1,129 @@
+.avatar {
+  border-radius: 50%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display:  block;
+  height: 120px;
+  width: 120px;
+
+}
+
+.Author {
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #dbe3f7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom: solid 2px;
+  overflow-y: scroll;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+  color: rgb(85, 118, 207);
+}
+
+.content {
+  margin-left: 220px;
+
+}
+
+.section-heading {
+  text-align: center;
+}
+.e {
+    border-bottom: 2px solid gray;
+}
+.card {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.left-block {
+  width: 200px;
+}
+.right-block {
+  padding-left: 30px;
+  max-width: 720px;
+  /* vertical-align: top; */
+}
+
+.list-card {
+  display: inline-block;
+}
+
+.detail p{
+  display: inline;
+}
+
+.skill:hover {
+  background-color: #555;
+  color: white;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  /* margin-left: auto; */
+  float: right;
+  display: inline;
+  padding-right: 20px;
+
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: rgb(255, 0, 0);
+}
+
+.a{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.b{
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+.project {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.project a{
+  margin: 20px 20px;
+  background-color: blue; /* Green */
+  border: none;
+  color: rgb(174, 225, 246);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.section-heading {
+  color: blue;
+}
