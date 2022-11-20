@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: "Serif", Georgia;
+}
+
+h1,
+h2,
+h3 {
+  color: brown;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
+
+b {
+  font-size: 17px;
+}
+
+hr {
+  margin: 0px 15px 15px;
+  /* padding: 20px; */
+}
+
+i,
+.student {
+  color: grey;
+}
+
+button {
+  background-color: #04AA6D;
+  border: none;
+  height: 30px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(5, 3, 3);
+}
+
+.title {
+  text-align: center;
+
+}
+
+.container {
+  align-items: center;
+  width: 84%;
+}
+
+.content-1 {
+  text-align: center;
+}
+
+.content-2 {
+  display: flex;
+  margin: 30px;
+}
+
+.content-2-left {
+  width: 25%;
+}
+
+.content-2-center {
+  width: 50%;
+  margin-top: 10px;
+  padding: 0 170px;
+}
+
+.content-2-right {
+  width: 25%;
+}
+
+.content-3 {
+  background-color: rgb(2, 1, 1);
+  padding: 20px;
+}
+
+.content-3-top,
+.content-3-bottom {
+  padding: 10px;
+  display: flex;
+}
+
+.content-3-left,
+.content-3-bottom-left {
+  width: 70%;
+}
+
+
+.content-3-right {
+  margin: 50px;
+
+}
+
+.content-3-bottom-right {
+  width: 90%;
+  margin: 50px;
+}
+
+.content-4 {
+
+  padding: 20px;
+}
+
+.content-4-top {
+  display: flex;
+  padding-bottom: 20px;
+
+}
+
+.content-4-top-left {
+  width: 20%;
+}
+
+.content-4-top-center {
+  margin: 0 20px;
+  width: 30%;
+}
+
+.content-4-top-right {
+  margin: 0 20px;
+  width: 18%;
+}
+
+
+.link-github {
+  text-align: center;
+  margin: 20px;
+}
+
+.content-4-bottom {
+  display: flex;
+}
+
+.content-4-bottom-left {
+  width: 22%;
+}
+
+.content-4-bottom-center {
+  width: 30%;
+}
+
+
+.content-4-bottom-right {
+  width: 20%;
+}
+
+
+.skill {
+  height: 10px;
+  width: 10px;
+}
+
+
+.star {
+  background-color: #04AA6D;
+}
+
+nav {
+  float: right;
+}
+
+.text a {
+  display: inline-block;
+  font-size: 1em;
+  background: rgb(3, 3, 3);
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: rgb(17, 16, 16);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.text a:hover {
+  letter-spacing: 6px;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 240%;
+  display: flex;
+  justify-content: center;
+  /* align-items    : center; */
+  background-color: #111 !important;
+}
+
+.menu ul {
+  position: relative;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+li {
+  padding: 30px;
+  width: 230px;
+  height: 60px;
+}
+
+.menu ul li a button {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: none;
+}
+
+a {
+  margin-left: 45px;
+}
+
+ul {
+  margin: -1px;
+}
+
+.menu ul li button {
+  /* background-color: black; */
+  color: #fff;
+  text-align: center;
+  margin-left: 25px;
+  font-size: 19px;
+  text-align: center;
+}
+
+button {
+  background-color: rgba(210, 169, 169, 0);
+  padding-left: 20px;
+  width: 0px;
+  height: 0px;
+  text-align: center;
+  font-family: "Serif", Georgia;
+}
+
+.menu ul li:hover {
+  background-color: brown;
+}
+
+button:hover {
+  background-color: brown;
+}
